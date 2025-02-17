@@ -1,0 +1,19 @@
+[project]
+name = "trywebpage"
+version = "0.1.0"
+description = "A Washington Post style website featuring Ollie the Guinea Pig"
+readme = "README.md"
+authors = [
+    { name = "Rolf van der Vlugt", email = "rolf@radac.nl" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "flask",
+]
+
+[project.scripts]
+trywebpage = "trywebpage:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
