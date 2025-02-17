@@ -1,1 +1,1 @@
-web: gunicorn 'trywebpage:app'
+web: gunicorn wsgi:app
